@@ -78,6 +78,8 @@ EXEC sys.sp_db_vardecimal_storage_format N'MyDirtDB', N'ON'
 GO
 ALTER DATABASE [MyDirtDB] SET QUERY_STORE = OFF
 GO
+USE [MyDirtDB]
+GO
 /****** Object:  Table [dbo].[tblDocs]    Script Date: 1/4/2023 10:25:01 AM ******/
 SET ANSI_NULLS ON
 GO
